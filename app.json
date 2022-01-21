@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Tinder2.0",
+    "slug": "Tinder2.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tinderLogo.png",
+    "splash": {
+      "image": "./assets/tinder.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/tinder.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "host.exp.exponent"
+    },
+    "web": {
+      "favicon": "./assets/tinder.png"
+    }
+  }
+}
